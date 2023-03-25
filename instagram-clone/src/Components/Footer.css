@@ -16,6 +16,10 @@
     text-wrap:nowrap;
 }
 
+#language{
+    margin-left: 40%;
+
+}
 #language>select{
     margin: none;
     outline: none;
