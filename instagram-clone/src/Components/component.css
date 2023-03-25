@@ -1,0 +1,50 @@
+
+  #sign-up{
+    height:600px;
+    width:300px;
+    border: 1px solid black;
+    margin-left: 40%;
+    padding-left: 50px;
+  }
+
+  #loginfb{
+    height:35px;
+    width:250px;
+    background-color:#318CE7;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  #register-form>form>input{
+    width:80%;
+    height: 40%;
+    padding: 0 2%;
+    border-radius: 4px;
+    outline: none;
+    border:1px solid grey;
+    color:rgb(72, 72, 72);
+    font-size:1.1vw;
+    margin-top: 10px;
+  }
+
+  #terms>small{opacity: 0.8;
+    
+  }
+
+  #terms{
+    margin-top: 20px;
+  }
+
+  #signuphere{
+    height:35px;
+    width:250px;
+    background-color:#318CE7;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+  }

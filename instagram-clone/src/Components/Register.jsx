@@ -48,7 +48,7 @@ function Register() {
     <>
     <div>
       <div className="home-bot">
-        <HomePage />
+        {/* <HomePage /> */}
       </div>
       <div id="sign-up">
         <div className="signUp-page">
@@ -62,16 +62,17 @@ function Register() {
           </div>
           <div>
             <div>
-              <h2>Sign up</h2>
+              <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png"/>
               <p>
                 {" "}
-                <strong> or </strong>login to your account
+                <strong> or </strong>Sign up to see photos and videos from your friends.
               </p>
+              <button id="loginfb">Login with Facebook</button>
             </div>
             <div></div>
           </div>
 
-          <div>
+          <div id="register-form">
             <form>
               <input
                 type="email"
@@ -116,13 +117,13 @@ function Register() {
             </form>
           </div>
 
-          <div>
-            <p>Have a referral code?</p>
-            <button onClick={(e) => submit(e)}>Continue</button>
-            <p>
-              By creating an account, I accept the{" "}
+          <div id="terms">
+            <small>People who use our service may have uploaded your contact information to Instagram.<strong>Learn More</strong> </small><br/><br/>
+            <small>
+            By signing up, you agree to our{" "}
               <strong>Terms & Conditions & Privacy Policy</strong>
-            </p>
+            </small><br/><br/>
+            <button id="signuphere" onClick={(e) => submit(e)}>Sign up</button>
           </div>
         </div>
       </div>

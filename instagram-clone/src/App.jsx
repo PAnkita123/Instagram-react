@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Footer from './Components/Footer.jsx'
 import {Route, Routes} from 'react-router-dom'
 import Register from './Components/Register.jsx'
 import Login from './Components/Login.jsx'
+
 
 function App() {
   return (

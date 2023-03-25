@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import HomePage from "./HomePage";
 import toast  from "react-hot-toast";
+import "./component.css";
+import Footer from "./Footer.jsx"
 
 function Login() {
   const [formData, setFormData] = useState({ email: "", password: "" });
@@ -16,6 +18,7 @@ function Login() {
     for (var i = 0; i < dataFromLs.length; i++) {
       if (
         dataFromLs[i].email === formData.email &&
+
         dataFromLs[i].password === formData.password
       ) {
         flag = true;
@@ -39,11 +42,12 @@ function Login() {
     setFormData({ ...formData, [name]: value });
   }
   return (
-    <div>
+    <>
+    <div id="Login">
       <div className="home-bot">
         <HomePage />
       </div>
-      <div id="login">
+      <div id="login-top">
         <div className="login-page">
           <div
             onClick={() => {
@@ -64,7 +68,7 @@ function Login() {
             <div></div>
           </div>
 
-          <div>
+          <div id="login-form">
             <form>
               <input
                 type="email"
@@ -105,6 +109,12 @@ function Login() {
         </div>
       </div>
     </div>
+
+
+
+
+    <Footer/>
+    </>
   );
 }
 
