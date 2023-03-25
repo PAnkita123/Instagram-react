@@ -1,0 +1,30 @@
+#foot{
+    height:5vh;
+    width:60%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 300px;
+}
+
+#foot>div{
+    /* width:5%; */
+    height:5vh;
+    /* border: 1px solid black; */
+    margin-left: 15px;
+    font-size: 12px;
+    opacity:0.8;
+    text-wrap:nowrap;
+}
+
+#language>select{
+    margin: none;
+    outline: none;
+    Border: none;
+    opacity:0.8;
+    font-size: 12px;
+}
+
+#language>small{
+    opacity:0.8;
+    font-size: 12px;
+}
